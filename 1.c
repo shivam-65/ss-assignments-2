@@ -1,12 +1,13 @@
-// Pipariya Darshitkumar
-// MT2022035
 /*
-    Write a separate program (for each time domain) to set a interval timer in 10sec and
-    10micro second
-    a. ITIMER_REAL
-    b. ITIMER_VIRTUAL
-    c. ITIMER_PROF
+Name:- Padaliya Shivam
+Roll No:- MT2024107
+Program:- 1. Write a separate program (for each time domain) to set a interval timer in 10sec and
+10micro second
+a. ITIMER_REAL
+b. ITIMER_VIRTUAL
+c. ITIMER_PROF
 */
+
 #include <sys/time.h>
 #include <signal.h>
 #include <unistd.h>
@@ -44,3 +45,11 @@ void main(int argc, char const *argv[])
     while (1)
         ;
 }
+
+/*
+shivam@shivam-Vostro-3590:~/Desktop/Handsonlist2/ss-assignments-2$ ./a.out
+Select interval timer
+1:10s
+2:10micros2
+Alarm clock
+*/
