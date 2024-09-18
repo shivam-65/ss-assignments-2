@@ -1,7 +1,7 @@
 /*
 Name:- Padaliya Shivam
 Roll No:- MT2024107
-Program:-6. Write a simple program to create three threads.
+Program:-7. Write a simple program to print the created thread ids.
 */
 
 #include <pthread.h>
